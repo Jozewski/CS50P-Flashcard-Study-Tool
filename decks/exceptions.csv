@@ -1,0 +1,17 @@
+id,topic,question,answer
+1,Exceptions,What is an exception in Python?,An error detected during execution that interrupts the normal flow of a program.
+2,Exceptions,What keyword starts an error-handling block?,try
+3,Exceptions,What keyword catches an exception?,except
+4,Exceptions,What keyword runs code only if no exception was raised?,else
+5,Exceptions,What keyword runs code whether or not an exception occurred?,finally
+6,Exceptions,What keyword manually triggers an exception?,raise
+7,Exceptions,How do you catch a specific exception type?,except ValueError: or except (ValueError, TypeError):
+8,Exceptions,How do you access the exception message inside an except block?,Use 'as': except ValueError as e: then print(e)
+9,Exceptions,What exception is raised when a variable name does not exist?,NameError
+10,Exceptions,What exception is raised when a value has the right type but an inappropriate value?,ValueError
+11,Exceptions,What exception is raised when an operation is applied to the wrong type?,TypeError
+12,Exceptions,What exception is raised when a key is not found in a dictionary?,KeyError
+13,Exceptions,What exception is raised when an index is out of range?,IndexError
+14,Exceptions,How do you define a custom exception class?,class MyError(Exception): pass
+15,Exceptions,What is the base class for all built-in exceptions?,Exception
+16,Exceptions,What is the difference between a syntax error and an exception?,A syntax error prevents the program from running at all. An exception occurs during execution.

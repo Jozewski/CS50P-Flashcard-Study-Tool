@@ -1,0 +1,21 @@
+id,topic,question,answer
+1,Regular Expressions,What Python module provides regular expression support?,re
+2,Regular Expressions,What does re.search() do?,Scans through a string and returns a match object for the first location where the pattern is found. Returns None if not found.
+3,Regular Expressions,What does re.match() do?,Checks for a match only at the beginning of the string.
+4,Regular Expressions,What does re.fullmatch() do?,Checks that the entire string matches the pattern.
+5,Regular Expressions,What does re.sub() do?,Replaces all occurrences of a pattern in a string with a replacement string.
+6,Regular Expressions,What does re.findall() return?,A list of all non-overlapping matches of a pattern in a string.
+7,Regular Expressions,What does the dot (.) metacharacter match?,Any single character except a newline.
+8,Regular Expressions,What does * mean in a regex pattern?,Zero or more of the preceding element.
+9,Regular Expressions,What does + mean in a regex pattern?,One or more of the preceding element.
+10,Regular Expressions,What does ? mean in a regex pattern?,Zero or one of the preceding element — makes it optional.
+11,Regular Expressions,What does ^ mean at the start of a pattern?,Anchors the match to the start of the string.
+12,Regular Expressions,What does $ mean at the end of a pattern?,Anchors the match to the end of the string.
+13,Regular Expressions,What does \d match?,Any digit character (0-9).
+14,Regular Expressions,What does \w match?,Any word character: letters, digits, and underscore.
+15,Regular Expressions,What does \s match?,Any whitespace character: space, tab, newline.
+16,Regular Expressions,What is a capture group and how do you write one?,A part of the pattern in parentheses () whose matched text can be retrieved separately.
+17,Regular Expressions,How do you retrieve the text of a capture group from a match object?,Use match.group(1) for the first group or match.groups() for all groups.
+18,Regular Expressions,What flag makes a regex case-insensitive?,re.IGNORECASE or re.I
+19,Regular Expressions,What do square brackets [] define in a regex?,A character class — matches any one character listed inside them.
+20,Regular Expressions,What does [^abc] mean in a regex?,Matches any character that is NOT a, b, or c.

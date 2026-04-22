@@ -1,0 +1,18 @@
+id,topic,question,answer
+1,OOP,What is a class?,A blueprint or template that defines the attributes and methods shared by all objects of that type.
+2,OOP,What is an instance?,A specific object created from a class. Each instance has its own copy of the class's attributes.
+3,OOP,What is __init__?,A special method called automatically when a new instance is created. Used to set up initial attribute values.
+4,OOP,What is self?,A reference to the current instance of the class. It must be the first parameter of every instance method.
+5,OOP,What is an instance attribute?,A variable that belongs to a specific instance. Defined using self.attribute_name inside __init__.
+6,OOP,What is a class attribute?,A variable shared by all instances of a class. Defined directly in the class body outside any method.
+7,OOP,What is a method?,A function defined inside a class that operates on instances of that class.
+8,OOP,What does __str__ do?,Defines what is returned when you call str() or print() on an instance. Controls the human-readable string representation.
+9,OOP,What does __repr__ do?,Defines an unambiguous string representation of an object — typically used for debugging.
+10,OOP,What is inheritance?,When a child class derives attributes and methods from a parent class using class Child(Parent).
+11,OOP,What does super() do?,Calls a method from the parent class. Commonly used in __init__ to run the parent's setup code.
+12,OOP,What is method overriding?,When a child class defines a method with the same name as one in the parent class, replacing the parent's behavior.
+13,OOP,What is encapsulation?,Bundling data and the methods that operate on it together inside a class, and restricting direct access from outside.
+14,OOP,What does a leading underscore (_name) signal in Python?,A convention indicating the attribute or method is intended for internal use only — not enforced by Python.
+15,OOP,What is a property in Python?,A way to define a method that can be accessed like an attribute using the @property decorator.
+16,OOP,What decorator creates a class method?,@classmethod — the method receives the class itself as the first argument (cls) instead of an instance.
+17,OOP,What decorator creates a static method?,@staticmethod — the method receives neither self nor cls. It behaves like a plain function inside the class namespace.

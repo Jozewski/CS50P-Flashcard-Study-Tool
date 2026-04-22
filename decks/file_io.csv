@@ -1,0 +1,13 @@
+id,topic,question,answer
+1,File I/O,What does the 'with' keyword do when opening a file?,It automatically closes the file after the block exits even if an error occurs.
+2,File I/O,What mode string opens a file for writing and completely overwrites existing content?,w
+3,File I/O,What mode string opens a file and appends to the end without overwriting?,a
+4,File I/O,What built-in function is used to open a file in Python?,open()
+5,File I/O,What does csv.DictReader return for each row?,An OrderedDict (or regular dict in Python 3.8+) with column headers as keys.
+6,File I/O,What does csv.DictWriter require before you can write rows?,You must call writeheader() first to write the column names.
+7,File I/O,What Python module handles reading and writing JSON files?,The json module (built-in).
+8,File I/O,What function converts a Python dict to a JSON string?,json.dumps() — with an 's' for string.
+9,File I/O,What is the difference between json.dump() and json.dumps()?,json.dump() writes to a file object. json.dumps() returns a string.
+10,File I/O,What exception is raised when you try to open a file that does not exist?,FileNotFoundError
+11,File I/O,What encoding argument should you pass to open() for broad compatibility?,encoding='utf-8'
+12,File I/O,What does the newline='' argument do in open() when working with CSV files?,It prevents Python from adding extra blank lines on Windows systems.

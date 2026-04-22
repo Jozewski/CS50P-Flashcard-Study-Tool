@@ -1,0 +1,16 @@
+id,topic,question,answer
+1,Functions,What keyword defines a function in Python?,def
+2,Functions,What does a function return if it has no return statement?,None
+3,Functions,What is a positional argument?,An argument passed to a function in the order the parameters are defined.
+4,Functions,What is a keyword argument?,An argument passed by name so order does not matter. Example: greet(name='Jo')
+5,Functions,What does *args allow a function to accept?,Any number of positional arguments collected into a tuple.
+6,Functions,What does **kwargs allow a function to accept?,Any number of keyword arguments collected into a dictionary.
+7,Functions,What is a default parameter value?,A fallback value used when the caller does not pass that argument. Example: def greet(name='World')
+8,Functions,What is the difference between a parameter and an argument?,A parameter is the variable in the function definition. An argument is the value passed when calling it.
+9,Functions,What does the return statement do?,It exits the function and sends a value back to the caller.
+10,Functions,Can a function return more than one value?,Yes. Python returns them as a tuple. Example: return x, y
+11,Functions,What is variable scope?,The region of code where a variable is accessible. Variables defined inside a function are local to it.
+12,Functions,What does the global keyword do?,It lets a function read and modify a variable defined at the module level.
+13,Functions,What is a lambda function?,An anonymous single-expression function. Example: lambda x: x * 2
+14,Functions,What is a docstring?,A string literal on the first line of a function body that documents what it does.
+15,Functions,What built-in function shows a function's docstring?,help(function_name)

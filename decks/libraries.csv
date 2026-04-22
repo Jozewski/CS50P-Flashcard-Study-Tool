@@ -1,0 +1,21 @@
+id,topic,question,answer
+1,Libraries,What does the requests library do?,Lets you send HTTP requests (GET, POST, etc.) and work with web APIs and URLs in Python.
+2,Libraries,How do you send a GET request with requests?,requests.get(url) — returns a Response object.
+3,Libraries,How do you access JSON data from a requests response?,Call response.json() — it parses the JSON body and returns a Python dict or list.
+4,Libraries,What is response.status_code?,The HTTP status code returned by the server. 200 means OK. 404 means Not Found.
+5,Libraries,What does Pillow (PIL) do?,Provides tools for opening, manipulating, and saving image files in Python.
+6,Libraries,How do you open an image with Pillow?,from PIL import Image then Image.open('file.jpg')
+7,Libraries,How do you resize an image with Pillow?,image.resize((width, height)) — returns a new resized image object.
+8,Libraries,How do you convert an image to grayscale with Pillow?,image.convert('L') — 'L' stands for luminance.
+9,Libraries,What does NumPy do?,Provides support for large multi-dimensional arrays and matrices plus a large library of mathematical functions.
+10,Libraries,What is a NumPy array different from a Python list?,NumPy arrays are homogeneous (one data type), support vectorized operations, and are much faster for numerical work.
+11,Libraries,How do you create a NumPy array?,import numpy as np then np.array([1, 2, 3])
+12,Libraries,What does pytest do?,A testing framework that finds and runs test functions and reports which pass or fail.
+13,Libraries,How does pytest find test functions automatically?,It looks for files named test_*.py or *_test.py and functions inside them named test_*.
+14,Libraries,What does pytest.raises() do?,A context manager that asserts a specific exception is raised inside its block. Used to test error handling.
+15,Libraries,What does the emoji library do?,Lets you convert emoji names to emoji characters and vice versa in Python strings.
+16,Libraries,What does the cowsay library do?,Generates ASCII art of an animal saying a message — used in CS50P for fun CLI output.
+17,Libraries,What is sys.argv?,A list containing the command-line arguments passed to a Python script. sys.argv[0] is always the script name.
+18,Libraries,What does sys.exit() do?,Raises SystemExit to terminate the program. Accepts an optional status code or message.
+19,Libraries,What does the random module provide?,Functions for generating pseudo-random numbers and making random choices. Example: random.choice(list)
+20,Libraries,What does the statistics module provide?,Functions for calculating mean, median, mode, and standard deviation on a list of numbers.
