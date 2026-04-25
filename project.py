@@ -119,7 +119,7 @@ def load_deck(filepath):
     with open(filepath, newline="", encoding="utf-8") as f:
         reader = csv.DictReader(f)
         for row in reader:
-            cards.append(dict(row))
+            cards.append(row)
     if not cards:
         raise ValueError(f"Deck file is empty: {filepath}")
     return cards
@@ -246,6 +246,8 @@ def print_session_summary(cards, scores, deck_name, session_correct, session_tot
 
 def list_decks(decks_dir):
     """Return a list of (deck_name, filepath) tuples from the decks directory."""
+    if not os.path.exists(decks_dir):
+        return []
     decks = []
     for filename in sorted(os.listdir(decks_dir)):
         if filename.endswith(".csv"):

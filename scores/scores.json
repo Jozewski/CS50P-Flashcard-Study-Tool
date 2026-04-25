@@ -1,5 +1,146 @@
 {
-  "file_io_1": {"correct": 4, "incorrect": 1},
-  "file_io_2": {"correct": 0, "incorrect": 3},
-  "regex_5":   {"correct": 2, "incorrect": 2}
+  "file_io_1": {
+    "correct": 4,
+    "incorrect": 1
+  },
+  "file_io_2": {
+    "correct": 0,
+    "incorrect": 3
+  },
+  "regex_5": {
+    "correct": 2,
+    "incorrect": 2
+  },
+  "oop_1": {
+    "correct": 1,
+    "incorrect": 0
+  },
+  "oop_2": {
+    "correct": 1,
+    "incorrect": 0
+  },
+  "oop_3": {
+    "correct": 1,
+    "incorrect": 0
+  },
+  "oop_4": {
+    "correct": 1,
+    "incorrect": 0
+  },
+  "oop_5": {
+    "correct": 1,
+    "incorrect": 0
+  },
+  "oop_6": {
+    "correct": 1,
+    "incorrect": 0
+  },
+  "oop_7": {
+    "correct": 1,
+    "incorrect": 0
+  },
+  "oop_8": {
+    "correct": 1,
+    "incorrect": 0
+  },
+  "oop_9": {
+    "correct": 1,
+    "incorrect": 0
+  },
+  "oop_10": {
+    "correct": 1,
+    "incorrect": 0
+  },
+  "oop_11": {
+    "correct": 1,
+    "incorrect": 0
+  },
+  "oop_12": {
+    "correct": 1,
+    "incorrect": 0
+  },
+  "oop_13": {
+    "correct": 1,
+    "incorrect": 0
+  },
+  "oop_14": {
+    "correct": 1,
+    "incorrect": 0
+  },
+  "oop_15": {
+    "correct": 1,
+    "incorrect": 0
+  },
+  "oop_16": {
+    "correct": 1,
+    "incorrect": 0
+  },
+  "oop_17": {
+    "correct": 1,
+    "incorrect": 0
+  },
+  "exceptions_1": {
+    "correct": 0,
+    "incorrect": 1
+  },
+  "exceptions_2": {
+    "correct": 1,
+    "incorrect": 0
+  },
+  "exceptions_3": {
+    "correct": 1,
+    "incorrect": 0
+  },
+  "exceptions_4": {
+    "correct": 0,
+    "incorrect": 1
+  },
+  "exceptions_5": {
+    "correct": 0,
+    "incorrect": 1
+  },
+  "exceptions_6": {
+    "correct": 1,
+    "incorrect": 0
+  },
+  "exceptions_7": {
+    "correct": 1,
+    "incorrect": 0
+  },
+  "exceptions_8": {
+    "correct": 0,
+    "incorrect": 1
+  },
+  "exceptions_9": {
+    "correct": 1,
+    "incorrect": 0
+  },
+  "exceptions_10": {
+    "correct": 1,
+    "incorrect": 0
+  },
+  "exceptions_11": {
+    "correct": 1,
+    "incorrect": 0
+  },
+  "exceptions_12": {
+    "correct": 0,
+    "incorrect": 1
+  },
+  "exceptions_13": {
+    "correct": 0,
+    "incorrect": 1
+  },
+  "exceptions_14": {
+    "correct": 0,
+    "incorrect": 1
+  },
+  "exceptions_15": {
+    "correct": 0,
+    "incorrect": 1
+  },
+  "exceptions_16": {
+    "correct": 0,
+    "incorrect": 1
+  }
 }

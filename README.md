@@ -28,7 +28,7 @@ python project.py
 
 **Run the tests:**
 ```
-pytest test_project.py
+python -m pytest test_project.py
 ```
 
 ---
