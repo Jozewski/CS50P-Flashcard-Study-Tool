@@ -16,11 +16,15 @@ DECKS_DIR = "decks"
 
 
 def main():
-    console.print(Panel.fit(
-        "[bold cyan]CS50P Flashcard Study Tool[/bold cyan]\n"
-        "[dim]Spaced repetition — weakest cards come first[/dim]",
-        border_style="cyan"
-    ))
+    info = (
+        "[bold]Project Title:[/bold]  CS50P Flashcard Study Tool\n"
+        "[bold]Name:[/bold]           Joanne Liszewski\n"
+        "[bold]GitHub:[/bold]         Jozewski\n"
+        "[bold]edX:[/bold]            jozewski\n"
+        "[bold]City/Country:[/bold]   Phoenix, Arizona, United States\n"
+        "[bold]Date:[/bold]           April 25, 2026"
+    )
+    console.print(Panel.fit(info, border_style="cyan"))
 
     while True:
         # ── Deck selection ──────────────────────────────────────────
