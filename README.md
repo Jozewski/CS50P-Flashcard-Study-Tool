@@ -1,6 +1,6 @@
 # CS50P Flashcard Study Tool
 
-#### Video Demo: <URL HERE>
+#### Video Demo: <https://youtu.be/A30xvncHYF8>
 
 #### Description:
 
