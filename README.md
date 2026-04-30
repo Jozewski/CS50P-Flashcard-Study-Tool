@@ -116,8 +116,6 @@ Two libraries:
 
 **`rich`** handles all the colored terminal output: the title panel, the per-card feedback, and the session summary table. Color-coded contrast in the terminal matters to me because I work with assistive technology and I think about accessibility in everything I build. `rich` makes it possible to do that without a lot of extra code.
 
-**`tabulate`** was used during early development as an alternative for table output. The final version uses `rich`'s built-in `Table` class instead, but `tabulate` stays in the requirements file because it was a real part of the development process.
-
 ---
 
 ### The `decks/` folder
