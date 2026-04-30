@@ -112,8 +112,6 @@ The tests for `load_deck` use Python's `tempfile` module to create actual tempor
 
 ### `requirements.txt`
 
-Two libraries:
-
 **`rich`** handles all the colored terminal output: the title panel, the per-card feedback, and the session summary table. Color-coded contrast in the terminal matters to me because I work with assistive technology and I think about accessibility in everything I build. `rich` makes it possible to do that without a lot of extra code.
 
 ---
